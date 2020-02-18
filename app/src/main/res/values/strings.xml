@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Чёткий советЪ</string>
+    <string name="title_activity_about">about</string>
+    <string name="large_text">
+        "Всем привет!\n\n"
+        "Данное приложение 18+\n"
+        "Мы не храним никаие данные.\n"
+        "Приложению необходим доступ в интернет,\n"
+        "так как все цитаты берутся, исключительно из сети.\n"
+        "Приятного использования!\n"
+    </string>
+    <string name="action_settings">Settings</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#690305</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#690305</color>
+    <color name="btn_back_toolbar">#ffffff</color>
+    <color name="reg_bg_color">#3B3B3B</color>
+    <color name="reg_bg_name_color">#2F2F2F</color>
+</resources>

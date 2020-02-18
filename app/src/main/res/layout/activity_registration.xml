@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/reg_bg_color"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Activities.Registration">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="40sp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content"
+        android:text="Познакомимся?"/>
+
+
+    <EditText
+        android:id="@+id/userName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:background="@color/reg_bg_name_color"
+        android:gravity="center"
+        android:singleLine="true"
+        android:imeOptions="actionDone"
+        android:hint="Как Вас зовут?"
+        android:padding="20dp"
+        android:textColor="#989898"
+        android:textColorHint="#989898"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="100dp"
+        android:src="@drawable/reg_img" />
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="150dp"
+        android:layout_height="47dp"
+        android:text="ПОГНАЛИ!"
+        android:layout_marginBottom="20dp"
+        android:textColor="@android:color/white"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="50dp"
+        android:background="@drawable/button_start" />
+
+</LinearLayout>
